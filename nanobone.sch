@@ -9563,13 +9563,19 @@ W = angled&lt;p&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="P9" library="BoneCapeParts" deviceset="FE23-2_SMD" device=""/>
-<part name="P8" library="BoneCapeParts" deviceset="FE23-2_SMD" device=""/>
+<part name="P9" library="BoneCapeParts" deviceset="FE23-2_SMD" device="">
+<attribute name="MPN" value="NPPC232KFMS-RC"/>
+</part>
+<part name="P8" library="BoneCapeParts" deviceset="FE23-2_SMD" device="">
+<attribute name="MPN" value="NPPC232KFMS-RC"/>
+</part>
 <part name="H1" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H2" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H3" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H4" library="BoneCapeParts" deviceset="HOLE" device=""/>
-<part name="U$1" library="BoneCapeParts" deviceset="CAT24C256" device=""/>
+<part name="U$1" library="BoneCapeParts" deviceset="CAT24C256" device="">
+<attribute name="MPN" value="CAT24C256WI-GT3"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -9578,33 +9584,63 @@ W = angled&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="U$2" library="SparkFun" deviceset="1.8V" device=""/>
-<part name="S1" library="switch-dil" deviceset="219-02*" device=""/>
+<part name="S1" library="switch-dil" deviceset="219-02*" device="">
+<attribute name="MPN" value="219-2MST"/>
+</part>
 <part name="TP1" library="testpad" deviceset="TP" device="B2,54"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4.75K, DNI"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%">
+<attribute name="MPN" value="RK73B1JTTDD562J"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MPN" value="WR06X1002FTL"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%">
+<attribute name="MPN" value="RK73B1JTTDD562J"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4.75K, DNI">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="BoneCapeParts" deviceset="FE20-2" device=""/>
-<part name="SV2" library="BoneCapeParts" deviceset="FE20-2" device=""/>
+<part name="SV1" library="BoneCapeParts" deviceset="FE20-2" device="">
+<attribute name="MPN" value="NPPC202KFMS-RC"/>
+</part>
+<part name="SV2" library="BoneCapeParts" deviceset="FE20-2" device="">
+<attribute name="MPN" value="NPPC202KFMS-RC"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="LOCK_LONGPADS"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603" value="blue">
+<attribute name="MPN" value="HT-193NB-5589"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="150">
+<attribute name="MPN" value="302-150-RC"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="MPN" value="LG Q971-KN-1"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="50">
+<attribute name="MPN" value="302-49.9-RC"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
@@ -9612,7 +9648,7 @@ W = angled&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="203.2" y="27.94" size="5.08" layer="97" font="vector" ratio="16">Cape Name</text>
+<text x="203.2" y="27.94" size="5.08" layer="97" font="vector" ratio="16">NanoBone</text>
 <text x="132.08" y="111.76" size="1.27" layer="97" ratio="15" rot="R180">GPIO_0_IN0</text>
 <text x="152.4" y="111.76" size="1.27" layer="97" ratio="15">GPIO_00</text>
 <text x="152.4" y="109.22" size="1.27" layer="97" ratio="15">GPIO_01</text>
@@ -9703,7 +9739,9 @@ W = angled&lt;p&gt;
 <instance part="H2" gate="G$1" x="20.32" y="25.4" rot="R180"/>
 <instance part="H3" gate="G$1" x="20.32" y="17.78" rot="R180"/>
 <instance part="H4" gate="G$1" x="20.32" y="10.16" rot="R180"/>
-<instance part="U$1" gate="G$1" x="116.84" y="22.86"/>
+<instance part="U$1" gate="G$1" x="116.84" y="22.86">
+<attribute name="MPN" x="116.84" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="17.78" y="203.2" rot="R270"/>
 <instance part="+3V1" gate="G$1" x="33.02" y="132.08"/>
 <instance part="P+1" gate="1" x="17.78" y="144.78"/>
@@ -9714,14 +9752,30 @@ W = angled&lt;p&gt;
 <instance part="U$2" gate="G$1" x="76.2" y="83.82"/>
 <instance part="S1" gate="G$1" x="81.28" y="27.94" rot="R270"/>
 <instance part="TP1" gate="G$1" x="132.08" y="10.16" rot="R180"/>
-<instance part="C1" gate="G$1" x="109.22" y="43.18"/>
-<instance part="R3" gate="G$1" x="139.7" y="38.1" rot="R90"/>
-<instance part="R7" gate="G$1" x="91.44" y="38.1" rot="R90"/>
-<instance part="R9" gate="G$1" x="132.08" y="38.1" rot="R90"/>
-<instance part="R1" gate="G$1" x="144.78" y="38.1" rot="R90"/>
-<instance part="R2" gate="G$1" x="96.52" y="38.1" rot="R90"/>
-<instance part="R4" gate="G$1" x="96.52" y="17.78" rot="R90"/>
-<instance part="R5" gate="G$1" x="101.6" y="38.1" rot="R90"/>
+<instance part="C1" gate="G$1" x="109.22" y="43.18">
+<attribute name="MPN" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="139.7" y="38.1" rot="R90">
+<attribute name="MPN" x="139.7" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="91.44" y="38.1" rot="R90">
+<attribute name="MPN" x="91.44" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="132.08" y="38.1" rot="R90">
+<attribute name="MPN" x="132.08" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="144.78" y="38.1" rot="R90">
+<attribute name="MPN" x="144.78" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="96.52" y="38.1" rot="R90">
+<attribute name="MPN" x="96.52" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="96.52" y="17.78" rot="R90">
+<attribute name="MPN" x="96.52" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="101.6" y="38.1" rot="R90">
+<attribute name="MPN" x="101.6" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="71.12" y="7.62"/>
 <instance part="+3V2" gate="G$1" x="96.52" y="50.8"/>
 <instance part="+3V3" gate="G$1" x="139.7" y="50.8"/>
@@ -9732,14 +9786,22 @@ W = angled&lt;p&gt;
 <instance part="JP1" gate="G$1" x="81.28" y="127"/>
 <instance part="P+2" gate="1" x="104.14" y="139.7"/>
 <instance part="GND7" gate="1" x="93.98" y="119.38"/>
-<instance part="LED1" gate="G$1" x="190.5" y="134.62"/>
-<instance part="R6" gate="G$1" x="190.5" y="121.92" rot="R90"/>
-<instance part="GND8" gate="1" x="190.5" y="111.76"/>
-<instance part="P+3" gate="1" x="190.5" y="142.24"/>
-<instance part="+3V4" gate="G$1" x="205.74" y="142.24"/>
-<instance part="LED2" gate="G$1" x="205.74" y="134.62"/>
-<instance part="R8" gate="G$1" x="205.74" y="121.92" rot="R90"/>
-<instance part="GND9" gate="1" x="205.74" y="111.76"/>
+<instance part="LED1" gate="G$1" x="218.44" y="134.62">
+<attribute name="MPN" x="218.44" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="218.44" y="121.92" rot="R90">
+<attribute name="MPN" x="218.44" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND8" gate="1" x="218.44" y="111.76"/>
+<instance part="P+3" gate="1" x="218.44" y="142.24"/>
+<instance part="+3V4" gate="G$1" x="233.68" y="142.24"/>
+<instance part="LED2" gate="G$1" x="233.68" y="134.62">
+<attribute name="MPN" x="233.68" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="233.68" y="121.92" rot="R90">
+<attribute name="MPN" x="233.68" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND9" gate="1" x="233.68" y="111.76"/>
 <instance part="SV3" gate="G$1" x="106.68" y="119.38" rot="R90"/>
 <instance part="VDD2" gate="G$1" x="109.22" y="139.7"/>
 </instances>
@@ -10887,12 +10949,12 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="190.5" y1="116.84" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="116.84" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="205.74" y1="116.84" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="116.84" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -10944,7 +11006,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="205.74" y1="139.7" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="139.7" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="1">
@@ -10980,7 +11042,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="190.5" y1="139.7" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="139.7" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="G$1" pin="3"/>
@@ -11064,14 +11126,14 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="129.54" x2="190.5" y2="127" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="129.54" x2="218.44" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="129.54" x2="205.74" y2="127" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="129.54" x2="233.68" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
